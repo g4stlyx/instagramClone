@@ -1,0 +1,27 @@
+.search-container{
+    z-index:9999;
+    height:100vh;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-div{
+    width:400px;
+    height:100vh;
+    position: fixed;
+    background-color: gray;
+    margin-left: 60px;
+    margin-right:0;
+}
+
+
+
+
+
+
+@media (max-width:767px){
+    .search-container{
+        display:none;
+    }
+}
